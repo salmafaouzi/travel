@@ -1,0 +1,160 @@
+/* Import Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+/*Body*/
+
+body {
+	margin: 0px;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-style: bold;
+  color: white;
+  font-size: 50px;
+  }
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+
+
+a {
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  margin: 0px;
+  color: white;
+  font-size: 16px;
+}
+
+a:hover {
+  text-decoration: none;
+  margin: 0px;
+}
+
+
+/*Banner*/
+
+.banner {
+  background-image: url('images/background.png');
+  padding: 100px;
+  position: sticky;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+/*Container*/
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	position: relative;
+	margin-top: 60px;
+
+}
+
+/*RESPONSIVE*/
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+
+}
+
+
+/*Navbar*/
+
+.mynavbar {
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    word-spacing: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+/*Avatar*/
+
+.avatar {
+	width: 4%;
+	border-radius: 50%
+}
+
+/*Li*/
+
+ul {
+	position: relative;
+
+}
+
+li {
+  color: white;
+  display: inline;
+  font-weight: bold;
+  padding-right: 3em;
+  margin: 600em 0em;
+}
+
+/*Card*/
+
+.card {
+	width: 100%;
+}
+
+.button-blue{
+  background-color: #0BA79D;
+  padding: 10px 50px;
+  color: white;
+  transition: border-radius 0.5s;
+  text-decoration: none;
+  border-radius: 8px;
+  font-family: Lato;
+}
+
+
+.button-blue:hover {
+  background-color: #ED8F3C;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+
+/*Rectangle*/
+
+.rectangle {
+	background-color: #0BA79D;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+
+
